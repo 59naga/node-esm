@@ -1,0 +1,18 @@
+{
+  "name": "node-esm",
+  "version": "1.0.0",
+  "description": "alias of `node --experimental-modules --no-warnings`",
+  "bin": {
+    "node-esm": "node-esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/59naga/node-esm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/59naga/node-esm/issues"
+  },
+  "homepage": "https://github.com/59naga/node-esm#readme",
+  "author": "59naga <i59naga@icloud.com>",
+  "license": "MIT"
+}

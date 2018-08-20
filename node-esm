@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+require("child_process")
+  .spawn(
+    "node",
+    ["--experimental-modules", "--no-warnings"].concat(process.argv.slice(2)),
+    {
+      env: process.env,
+      stdio: "inherit"
+    }
+  )
+  .on("exit", code => {
+    process.exit(code);
+  });
