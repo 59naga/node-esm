@@ -5,6 +5,9 @@
   "bin": {
     "node-esm": "node-esm"
   },
+  "scripts": {
+    "postversion": "git push --follow-tags && conventional-github-releaser -p atom"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/59naga/node-esm.git"
